@@ -1,0 +1,56 @@
+.allAplicationsInfoWrapp {
+    display: inline-flex;
+    width: 1800px;
+    height: 90vh;
+    overflow-x: scroll;
+  }
+  
+  .cardsWrapp {
+    display: inline-block;
+    width: 370px;
+    border-radius: 10px;
+    margin: 0 25px 0 25px;
+    padding: 5px 12px 5px 12px;
+  }
+  .usersCardWrapp {
+    width: 350px;
+  }
+  .aplicatinTitle {
+    background-color: #c9d2ce;
+    font-size: 24px;
+    word-wrap: "break-word";
+    padding: 10px 8px 10px 8px;
+    margin: 0 !important;
+  }
+  .userStatus {
+    color: #856ec6;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #f6f2ff;
+    padding: 5px 8px 5px 8px;
+    border-radius: 10px;
+  }
+  .userRelated,
+  .className {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.151);
+    border-radius: 10px;
+  }
+  .userRec,
+  .userName {
+    font-size: 14px;
+  }
+  .noInfo {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .card{
+      transition: all 0.2s ease;
+  }
+  
+  .card:hover{
+      background-color: rgba(177, 177, 177, 0.185);
+  }
